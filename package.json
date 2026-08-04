@@ -1,0 +1,25 @@
+{
+  "name": "santis-test-template",
+  "version": "1.0.0",
+  "description": "testing template",
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "keywords": [
+    "react-native",
+    "react-native-template",
+    "react-native-cli",
+    "starter",
+    "template",
+    "typescript",
+    "ios",
+    "android"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santix11/santis-test-template.git"
+  },
+  "author": "TECH DMV LLC - Hugo Canseco <techdmvllc@gmail.com>",
+  "license": "MIT"
+}
