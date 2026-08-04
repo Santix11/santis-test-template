@@ -48,6 +48,12 @@ This creates a fresh bare React Native app inside `./template`.
 
 ## 5. Fix a known CLI/npm issue with `.gitignore`
 
+> Reference: (https://docs.npmjs.com/cli/v11/using-npm/developers)
+
+## Keeping files out of your Package
+
+Follow their recommendation OR below
+
 The RN CLI generates a `.gitignore` inside `template/` that can get excluded when packaging, since npm ignores `.gitignore` files by default when publishing. Rename it so it's preserved:
 
 ```bash
@@ -60,7 +66,6 @@ To verify it's there:
 ls -la template
 ```
 
-> Reference: [restackio/examples-typescript#16](https://github.com/restackio/examples-typescript/pull/16)
 
 Note: when your template generator copies these files into a new project, it should rename `_gitignore` back to `.gitignore` at generation time.
 
